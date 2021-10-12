@@ -27,6 +27,14 @@ app.get('/pirates', (_, response) => {
   Pirate.find({}).then(pirates => response.send(pirates));
 });
 
+app.patch('/pirates', (_, response) => {
+  P; //
+});
+
+app.delete('/pirates', (_, response) => {
+  P; //
+});
+
 mongoose
   .connect(clusterConnection, {
     useNewUrlParser: true,
